@@ -1,0 +1,35 @@
+scapy In the context of your Deep Learning and Computer Engineering coursework, Scapy and spaCy are two very different Python libraries. Since your previous question was about Sentiment Analysis, you might have meant spaCy, but if you specifically want to know about Scapy, it is a powerful networking tool.
+
+Here is a description of both to clear up any confusion:
+
+1. Scapy (Network Packet Manipulation)
+Scapy is an interactive packet manipulation program and library written in Python. It is the "Swiss Army Knife" for network security and analysis.
+
+What it does: It allows you to forge (create), decode, send, and capture network packets for a wide range of protocols (IP, TCP, UDP, ICMP, etc.).
+
+Why it's unique: Unlike tools like Wireshark that only let you see traffic, Scapy lets you build it. You can send a packet with a custom header to see how a server responds.
+
+Core Capabilities:
+
+Scanning: Creating custom port scanners (similar to Nmap).
+
+Tracerouting: Visualizing the path data takes across a network.
+
+Probing & Attacks: Performing tasks like ARP cache poisoning or VLAN hopping for security testing.
+
+Unit Testing: Testing network stacks by sending invalid or edge-case packets.
+
+2. spaCy (Natural Language Processing)
+If your interest is related to the Sentiment Analysis question in your assignment, then spaCy is the tool you are looking for.
+
+What it does: It is a library for advanced Natural Language Processing (NLP). It takes raw text and turns it into data that a computer can "understand."
+
+Relation to Deep Learning: Modern versions of spaCy (v3.0+) use Transformer architectures (like BERT) to perform tasks with high accuracy.
+
+Workflow for Sentiment Analysis:
+
+Tokenization: Breaking sentences into individual words.
+
+Vectorization: Converting words into numbers (word embeddings) so a Neural Network can process them.
+
+Classification: Using a trained model to predict if the text is "Positive" or "Negative."
