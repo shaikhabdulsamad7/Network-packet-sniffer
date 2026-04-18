@@ -21,3 +21,4 @@ sudo python3 sniffer.py
 ```
 
 ## 📸 Sample Output
+<img width="1590" height="897" alt="WhatsApp Image 2026-04-17 at 12 12 53 PM" src="https://github.com/user-attachments/assets/733fe956-c89d-4b45-ba12-57cc840d81fc" />
